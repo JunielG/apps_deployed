@@ -1,13 +1,13 @@
 import streamlit as st 
 import numpy as np 
-import joblib 
-#import pickle
+#import joblib 
+import pickle
 import warnings 
 warnings.filterwarnings('ignore')
 
 # Load the trained model 
-#with open('best_model.pkl', "rb") as f: 
-#    model = pickle.load(f)
+with open('best_model.pkl', "rb") as f: 
+    model = pickle.load(f)
 
 #model = joblib.load('best_model.pkl')
 
