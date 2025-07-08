@@ -1,4 +1,5 @@
 # Modules to import
+pip install --upgrade pip
 pip install joblib==1.4.2
 pip install numpy ==2.0.2
 pip install pandas==2.2.3
