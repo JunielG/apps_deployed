@@ -4,8 +4,9 @@ import pickle
 import warnings 
 warnings.filterwarnings('ignore')
 
-# Load the trained model
-model = pickle.load('best_model.pkl')
+# Load the trained model correct way - open the file first
+with open('best_model.pkl', 'rb') as f:
+    model = pickle.load(f)
 
 st.title('Student Exam Score Predictor')
 
