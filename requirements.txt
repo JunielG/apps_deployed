@@ -1,8 +1,0 @@
-# Modules to import
-python3 -m pip install --upgrade pip
-pip install joblib==1.4.2
-pip install numpy ==2.0.2
-pip install pandas==2.2.3
-pip install seaborn==0.13.2
-pip install matplotlib==3.9.4
-pip install sklearn==1.5.2
