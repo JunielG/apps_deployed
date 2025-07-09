@@ -1,11 +1,11 @@
 import streamlit as st 
 import numpy as np 
-import joblib
+import pickle
 import warnings 
 warnings.filterwarnings('ignore')
 
 # Load the trained model
-model = joblib.load('best_model.pkl')
+model = pickle.load('best_model.pkl')
 
 st.title('Student Exam Score Predictor')
 
